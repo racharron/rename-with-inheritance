@@ -22,15 +22,6 @@
       </handler>
    </extension>
    <extension
-         point="org.eclipse.ui.bindings">
-      <key
-            commandId="rename_with_inheritance.commands.sampleCommand"
-            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            contextId="org.eclipse.ui.contexts.window"
-            sequence="M1+6">
-      </key>
-   </extension>
-   <extension
          point="org.eclipse.ui.menus">
       <menuContribution
             locationURI="menu:org.eclipse.ui.main.menu?after=additions">
@@ -53,7 +44,7 @@
                   id="rename_with_inheritance.toolbars.sampleCommand"
                   commandId="rename_with_inheritance.commands.sampleCommand"
                   icon="icons/sample.png"
-                  tooltip="Say hello world">
+                  tooltip="Rename &quot;m&quot; to &quot;n&quot;">
             </command>
          </toolbar>
       </menuContribution>
